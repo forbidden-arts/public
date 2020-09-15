@@ -15,7 +15,8 @@ garbage = urllib.request.urlopen("http://www.pythonchallenge.com/pc/def/ocr.html
 # that ".decode" took me forever to figure out. should have just dumped all
 # this into a file.
 
-# strip out all the special / escape characters
+# strip out all the special / escape characters. in the end, we only want to check
+# if the last character fits our subset, which is why there's a [-1]
 g_sort = re.findall("<!--(.*?)-->", garbage, re.DOTALL)[-1]
 #print(g_sort)
 
