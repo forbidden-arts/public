@@ -4,3 +4,6 @@ common tasks related to the Python Challenge and the Euler Project.
 
 Most of them are related to data handling, data manipulation, or CPU 
 intensive math questions.
+
+***EDIT***
+C 'applets' from CS50 are also committed.
