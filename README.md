@@ -6,4 +6,5 @@ Most of them are related to data handling, data manipulation, or CPU
 intensive math questions.
 
 ***EDIT***
-C 'applets' from CS50 are also committed.
+A *lot* of this is ending up being projects from CS50. Adding them here for
+future reference.
